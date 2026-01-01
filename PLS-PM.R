@@ -42,7 +42,7 @@ summary(df1_pls)
 
 
 df1_pls$path_coefs
-值
+
 df1_pls$inner_model
 
 innerplot(df1_pls,colpos = "red",colneg = "blue",show.values = TRUE,lcol = "gray",box.lwd = 0)
@@ -58,4 +58,5 @@ outerplot(df1_pls,what = "loadings",arr.width = 0.1,colpos = "red",colneg = "blu
 outerplot(df1_pls,what = "weights",arr.width = 0.1,colpos = "red",colneg = "blue",show.values=TRUE,lcol = "gray")
 
 df1_pls$scores
+
 
